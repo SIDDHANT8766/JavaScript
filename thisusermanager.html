@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>User Cards</title>
+</head>
+
+<body class="bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 min-h-screen py-10">
+
+<div class="max-w-6xl mx-auto">
+
+    <!-- FORM -->
+
+    <form autocomplete="off"
+        class="bg-white/90 backdrop-blur rounded-2xl shadow-2xl p-8 w-full max-w-md mx-auto">
+
+        <h1 class="text-4xl font-bold text-center mb-8">
+            Add User
+        </h1>
+
+        <div class="mb-5">
+            <label class="block font-semibold mb-2">Name</label>
+
+            <input
+                type="text"
+                placeholder="Enter Name"
+                id="name"
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+        </div>
+
+        <div class="mb-5">
+            <label class="block font-semibold mb-2">Role</label>
+
+            <input
+                type="text"
+                placeholder="Enter Role"
+                id="role"
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+        </div>
+
+        <div class="mb-5">
+            <label class="block font-semibold mb-2">Bio</label>
+
+            <textarea
+                rows="4"
+                placeholder="Write Bio"
+                id="bio"
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+        </div>
+
+        <div class="mb-6">
+            <label class="block font-semibold mb-2">Photo URL</label>
+
+            <input
+                type="text"
+                placeholder="Paste Image URL"
+                id="photo"
+                class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-500">
+        </div>
+
+        <button
+            class="w-full bg-purple-600 hover:bg-purple-700 text-white py-3 rounded-lg font-bold transition">
+            Submit
+        </button>
+
+    </form>
+
+    <!-- USER CARDS -->
+
+    <div class="users grid grid-cols-1 md:grid-cols-3 gap-10 px-6 mt-12">
+
+        <!-- Card 1 -->
+
+
+
+    </div>
+
+</div>
+
+<script src="thisusermanager.js"></script>
+</body>
+</html>
